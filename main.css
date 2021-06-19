@@ -1,0 +1,39 @@
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+}
+
+body {
+    background: #00A68C;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.answers {
+    text-align: center;
+    height: 60vh;
+}
+
+form {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+    border-radius: 10px;
+}
